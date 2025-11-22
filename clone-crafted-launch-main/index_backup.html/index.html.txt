@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Project</title>
+  </head>
+  <body>
+    <h1>Welcome to My Project</h1>
+
+    <!-- Apni JS file ka naam yahan lagao -->
+    <script src="main.js"></script> <!-- Replace 'main.js' with your JS file name -->
+
+    <script>
+      // Example: load local JSON file
+      fetch('data.json')  // Replace 'data.json' with your JSON file name
+        .then(response => response.json())
+        .then(data => {
+          console.log('JSON Data:', data);
+          const pre = document.createElement('pre');
+          pre.textContent = JSON.stringify(data, null, 2);
+          document.body.appendChild(pre);
+        })
+        .catch(err => console.error('Error loading JSON:', err));
+    </script>
+  </body>
+</html>
