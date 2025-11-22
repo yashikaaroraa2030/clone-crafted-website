@@ -1,0 +1,14 @@
+<svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Gradient matching website theme -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simple text logo -->
+  <text x="0" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="url(#textGradient)">
+    Clone Crafted
+  </text>
+</svg>
